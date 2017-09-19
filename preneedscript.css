@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 20pt;
+	color: #900;
+	float: none;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+}
+h2{
+	font-weight: normal;
+	font-variant: normal;
+	text-align: center;
+	font-size: 12.5pt;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-top: 11px;
+	padding-bottom: 6px;	
+}
+h3{
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 16pt;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #1C0497;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	text-align: justify;
+	margin-left: 312px;
+	margin-right: 35px;
+}
+h4 {
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 14pt;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+	padding-top: 0px;
+	padding-bottom: 5.9px;
+	text-align: justify;
+	margin-left: 312px;
+	margin-right: 35px;
+	
+}
+h5 {
+	font-family: arial;
+	color: black;
+	bottom: 20px;
+	font-weight: normal;
+	font-size: 12pt;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+h6 {
+	font-family: Source Sans Pro;
+	color: #F9E528;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.sonic {
+	color: white;
+}
+
+span {
+	color: #F9E528;
+	font-size: 20pt;
+}
+
+span.bullet {
+	color: white;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+a[href^=http]{color:rgba(15,77,39,1.00);}
+a[href^="contactus2.html"]{color:white;text-decoration: none;}
+
+header, section, footer, aside, nav, article, hgroup {
+	display:block;
+}
+
+body{
+	width:100%;
+	display:-moz-box;
+	-moz-box-pack: center;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+}
+#big_wrapper{
+	border: 1px solid white;
+	max-width:1050px;
+	margin: 20px 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	-moz-box-orient: vertical;
+	-moz-box-flex: 1;
+	text-align:center;
+	background: url(ojfleafbackgrounds.png) no-repeat;
+	background-size:cover;
+}
+#top_header{
+	background:white;
+	border: 1px solid rgba(white);
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+#main_section{
+	float: left;
+	width:100%;
+	margin:0px; /* 720px, 280 left */
+}
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #1C0497;
+	color: #FCF8F8;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+article {
+	background: url(flowers1.png) no-repeat;
+	border: #999 solid 1px;
+	padding: 17px;
+	margin-top: 17px;	
+	margin-bottom: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+}
+
